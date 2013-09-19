@@ -6,19 +6,20 @@ describe('controllers', function(){
 
     beforeEach(module('myApp.controllers'));
 
-    it('should ....', inject(function() {
-      //spec body
-    }));
-
-    it('should ....', inject(function() {
-        //spec body
-    }));
+//    it('should ....', inject(function() {
+//      //spec body
+//    }));
+//
+//    it('should ....', inject(function() {
+//        //spec body
+//    }));
 
     var ctrl, scope;
 
     beforeEach(inject(function($controller, $rootScope) {
+        //sets the new rootscope in the globalvariable pool
         scope = $rootScope.$new();
-        ctrl = $controller("MyCtrl1", {
+        ctrl = $controller("MyNewsCtrl", {
             $scope: scope
         });
 
