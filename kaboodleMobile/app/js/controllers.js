@@ -3,8 +3,8 @@
 /* Controllers */
 
 angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
-                var a = 1;
+  controller('MyCtrl1', ["$scope",function($scope) {
+     $scope.newsitems=7;
   }])
   .controller('MyCtrl2', [function() {
 
