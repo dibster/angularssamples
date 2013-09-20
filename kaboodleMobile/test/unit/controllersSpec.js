@@ -14,19 +14,34 @@ describe('controllers', function(){
 //        //spec body
 //    }));
 
-    var ctrl, scope;
 
+    var newsctrl, newsscope;
     beforeEach(inject(function($controller, $rootScope) {
-        //sets the new rootscope in the globalvariable pool
-        scope = $rootScope.$new();
-        ctrl = $controller("MyNewsCtrl", {
-            $scope: scope
+        //sets the new rootscope in the global variable pool
+        newsscope = $rootScope.$new();
+        newsctrl = $controller("MyNewsCtrl", {
+            $scope: newsscope
         });
 
     }));
 
-
     it('test controller fires', function() {
-        expect(scope.newsitems).toMatch(7);
+        expect(newsscope.newsitems).toMatch(7);
     });
+
+    // Tasks Controller
+      var taskctrl, taskscope;
+      beforeEach(inject(function($controller, $rootScope) {
+        //sets the new rootscope in the global variable pool
+        taskscope = $rootScope.$new();
+        taskctrl = $controller("MyTasksCtrl", {
+            $scope: taskscope
+        });
+
+      }));
+
+
+      it('should return number of events as 3', function() {
+          expect(taskscope.events).toMatch(3);
+      });
 });
