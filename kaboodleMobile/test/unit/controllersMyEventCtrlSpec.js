@@ -26,7 +26,7 @@ describe('controllers', function(){
     }));
 
     it('test controller fires', function() {
-        expect(newsscope.newsitems).toMatch(7);
+        expect(newsscope.getTotalNews()).toMatch(7);
     });
 
     // Tasks Controller
@@ -34,7 +34,7 @@ describe('controllers', function(){
       beforeEach(inject(function($controller, $rootScope) {
         //sets the new rootscope in the global variable pool
         taskscope = $rootScope.$new();
-        taskctrl = $controller("MyTasksCtrl", {
+        taskctrl = $controller("MyEventsCtrl", {
             $scope: taskscope
         });
 
