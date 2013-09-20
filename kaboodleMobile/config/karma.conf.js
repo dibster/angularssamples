@@ -6,7 +6,8 @@ module.exports = function(config){
       'app/lib/angular/angular.js',
       'app/lib/angular/angular-*.js',
       'test/lib/angular/angular-mocks.js',
-      'app/js/**/*.js',
+        'app/js/controllers/**/*.js',
+        'app/js/**/*.js',
       'test/unit/**/*.js'
     ],
 
@@ -28,4 +29,5 @@ module.exports = function(config){
       suite: 'unit'
     }
 
-})}
+})};
+
