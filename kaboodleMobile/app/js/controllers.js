@@ -3,7 +3,10 @@
 /* Controllers */
 
 angular.module('myApp.controllers', []).
-  controller('MyNewsCtrl', ["$scope",function($scope) {
+
+    // My News Controller
+
+    controller('MyNewsCtrl', ["$scope",function($scope) {
 
         $scope.news = [
             {person: 'josh', news: "Document for dev machine in progress, VPN still not working from India. Made some changes together. Will do some airlines work today together as well", reply : false},
@@ -20,13 +23,17 @@ angular.module('myApp.controllers', []).
         };
 
         $scope.addNews = function () {
-            $scope.news.unshift({person : 'kate', news:$scope.formNewsText,reply:false});
+            $scope.news.unshift({person : $scope.thisUser, news:$scope.formNewsText,reply:false});
             $scope.formNewsText = "";
 
         };
 
 
   }])
-  .controller('MyEventsCtrl', ["$scope",function($scope) {
+
+
+    // My Events Controller
+
+    .controller('MyEventsCtrl', ["$scope",function($scope) {
      $scope.events=3;
   }]);

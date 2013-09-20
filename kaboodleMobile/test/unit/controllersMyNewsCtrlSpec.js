@@ -16,7 +16,25 @@ describe('controllers', function(){
         });
       }));
 
-      it('should return number of news items as 7', function() {
-          expect(taskscope.getTotalNews()).toMatch(7);
-      });
+    it('should return number of news items as 7', function() {
+        expect(taskscope.getTotalNews()).toMatch(7);
+    });
+
+    it('first person returned should be called josh', function() {
+        expect(taskscope.news[0].person).toMatch("josh");
+        expect(taskscope.news[4].person).toMatch("morrissey");
+    });
+
+    it('sergey should be added to the list, the list will have 8 items now', function() {
+        taskscope.formNewsText = "sergey";
+        taskscope.addNews();
+        expect(taskscope.getTotalNews()).toMatch(8);
+    });
+
+    it('sergey should be added to the top of the list', function() {
+        taskscope.formNewsText = "NewsItem";
+        taskscope.thisUser = "lukasz";
+        taskscope.addNews();
+        expect(taskscope.news[0].person).toMatch("lukasz");
+    });
 });

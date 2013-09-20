@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" name="Default" comment="Changed the name of the controlllers and removed a few tests I dont need now I use a different way">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/unit/controllersSpec.js" afterPath="$PROJECT_DIR$/test/unit/controllersMyEventCtrlSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js" afterPath="$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kaboodleMobile.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379664143305" ignored="false" />
+    <file path="/Dummy.txt" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379665234475" ignored="false" />
     <file path="/index.html" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379599097042" ignored="false" />
-    <file path="/controllers.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379658770687" ignored="false" />
+    <file path="/controllers.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379666903541" ignored="false" />
     <file path="/controllersSpec.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379664267881" ignored="false" />
     <file path="/partial1.html" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379599165872" ignored="false" />
     <file path="/dummy.xml" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379598837042" ignored="false" />
     <file path="/controllersMyTaskCtrlSpec.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379665036758" ignored="false" />
+    <file path="/controllersMyNewsCtrlSpec.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379666942592" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,94 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="scenarios.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/e2e/scenarios.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="6" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllersMyEventCtrlSpec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/controllersMyEventCtrlSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="40" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#143#186#0" expanded="false" />
-                <element signature="e#385#582#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllersMyNewsCtrlSpec.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="126" selection-start="142" selection-end="142" vertical-scroll-proportion="0.15647058">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runner.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/e2e/runner.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jasmine-1.1.0.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jasmine-1.1.0.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JasmineAdapter-1.1.2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JasmineAdapter-1.1.2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="34" column="17" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.7546729">
               <folding />
             </state>
           </provider>
@@ -157,10 +73,10 @@
         <option value="$PROJECT_DIR$/app/partials/partial1.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/test/unit/controllersSpec.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers.js" />
         <option value="$PROJECT_DIR$/test/unit/controllersMyEventCtrlSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/controllersMyTaskCtrlSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers.js" />
       </list>
     </option>
   </component>
@@ -196,6 +112,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -334,18 +251,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/index.html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -510,16 +426,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test/unit/filtersSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="51" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/filters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="33" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
@@ -549,9 +461,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/lib/angular/version.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jasmine-1.1.0.js">
@@ -606,23 +516,20 @@
     <entry file="file://$PROJECT_DIR$/test/unit/controllersMyEventCtrlSpec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="40" selection-start="949" selection-end="949" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#143#186#0" expanded="false" />
-            <element signature="e#385#582#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="6" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="126" selection-start="142" selection-end="142" vertical-scroll-proportion="0.15647058">
+        <state line="13" column="73" selection-start="404" selection-end="404" vertical-scroll-proportion="0.28423476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="17" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.7546729">
           <folding />
         </state>
       </provider>
