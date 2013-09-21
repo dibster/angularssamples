@@ -5,5 +5,5 @@
  * Time: 10:13
  * To change this template use File | Settings | File Templates.
  */
-
+//angular.module('kaboodle.News.controllers', []);
 

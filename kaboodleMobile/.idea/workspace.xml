@@ -2,23 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/MyEventCtrlSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/MyNewsCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/unit/MyNewsCtrlSpec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/dave.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/controllers/index.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/controllersMyEventCtrlSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/js/controllers.js" afterPath="$PROJECT_DIR$/app/js/controllers/MyEventsCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/unit/MyEventCtrlSpec.js" afterPath="$PROJECT_DIR$/test/unit/MyEventsCtrlSpec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/index.js" afterPath="$PROJECT_DIR$/app/js/controllers/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/karma.conf.js" afterPath="$PROJECT_DIR$/config/karma.conf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kaboodleMobile.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379671304137" ignored="false" />
-    <file path="/index.html" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379669009585" ignored="false" />
+    <file path="/Dummy.txt" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379671329509" ignored="false" />
+    <file path="/index.html" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379671557207" ignored="false" />
     <file path="/controllers.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379666903541" ignored="false" />
     <file path="/controllersSpec.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379664267881" ignored="false" />
     <file path="/partial1.html" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379599165872" ignored="false" />
@@ -27,6 +21,7 @@
     <file path="/controllersMyNewsCtrlSpec.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379666942592" ignored="false" />
     <file path="/app.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379668789653" ignored="false" />
     <file path="/controllersMyEventCtrlSpec.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379670771329" ignored="false" />
+    <file path="/MyEventsCtrlSpec.js" changelist="59dcb801-e1aa-4aa9-8b02-7ccd3307b0aa" time="1379756605558" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,42 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="341" selection-end="341" vertical-scroll-proportion="0.33205375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partial1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/partial1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partial2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/partial2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="138" selection-end="138" vertical-scroll-proportion="-3.392857">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyEventsCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/MyEventsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,10 +50,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
+      <file leaf-file-name="MyNewsCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/MyNewsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyEventsCtrlSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/MyEventsCtrlSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="0" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyNewsCtrlSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/MyNewsCtrlSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="65" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="46" selection-start="630" selection-end="630" vertical-scroll-proportion="0.3460838">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/js/services.js" />
         <option value="$PROJECT_DIR$/test/unit/filtersSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/servicesSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/directivesSpec.js" />
@@ -127,14 +121,15 @@
         <option value="$PROJECT_DIR$/test/unit/controllersSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/controllersMyTaskCtrlSpec.js" />
         <option value="$PROJECT_DIR$/app/js/controllers.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/index.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/MyNewsCtrl.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/MyEventsCtrl.js" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/test/unit/controllersMyEventCtrlSpec.js" />
         <option value="$PROJECT_DIR$/test/unit/controllersMyNewsCtrlSpec.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/MyNewsCtrl.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/index.js" />
         <option value="$PROJECT_DIR$/config/karma.conf.js" />
+        <option value="$PROJECT_DIR$/test/unit/MyEventsCtrlSpec.js" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
       </list>
     </option>
   </component>
@@ -186,6 +181,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kaboodleMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaboodleMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaboodleMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,7 +389,11 @@
       <created>1379668171837</created>
       <updated>1379668171837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Managed to split the controllers out , cant get index.js to define the controller firts unfortunatly. could be load order for karma or something else&#10;">
+      <created>1379671335132</created>
+      <updated>1379671335132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -401,9 +418,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="25" width="1900" height="1002" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.572067" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -487,16 +504,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/lib/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13786" column="2" selection-start="455391" selection-end="455391" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1379591548428" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1379591548428" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/e2e/runner.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -532,53 +539,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.15304948">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/MyNewsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="78" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.48948598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/partial1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/MyEventsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/MyEventCtrlSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="227" selection-end="227" vertical-scroll-proportion="-3.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/MyNewsCtrlSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="65" selection-start="633" selection-end="633" vertical-scroll-proportion="0.5288092">
           <folding />
         </state>
       </provider>
@@ -590,16 +553,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+        <state line="24" column="38" selection-start="703" selection-end="703" vertical-scroll-proportion="-10.464286">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="341" selection-end="341" vertical-scroll-proportion="0.33205375">
+        <state line="7" column="2" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/MyNewsCtrlSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="65" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/MyEventsCtrlSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/MyNewsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/MyEventsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="630" selection-end="630" vertical-scroll-proportion="0.3460838">
           <folding />
         </state>
       </provider>

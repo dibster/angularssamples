@@ -29,7 +29,19 @@ describe('controllers', function(){
       it('should return number of events as 7', function() {
           expect(scope.getTotalEvents()).toMatch(7);
       });
-      it('should have 6 tasks', function() {
-          expect('>>>   countthetests    <<<<<<').toMatch(6);
+      it('should have 4 tasks', function() {
+
+          // count the number of tasks
+
+          var numberoftasks = 0;
+
+          for(var i = 0; i < scope.events.length; i++)
+          {
+              if(scope.events[i].type == 'task')
+              {
+                  numberoftasks = numberoftasks + 1;
+              }
+          }
+          expect(numberoftasks).toMatch(4);
       })
 });
