@@ -5,7 +5,7 @@ var Server = mongo.Server,
     BSON = mongo.BSONPure;
  
 var server = new Server('localhost', 27017, {auto_reconnect: true});
-db = new Db('winedb', server);
+db = new Db('winedb3', server);
  
 db.open(function(err, db) {
     if(!err) {
@@ -91,15 +91,17 @@ exports.deleteWine = function(req, res) {
 // You'd typically not find this code in a real-life app, since the database would already exist.
 var populateDB = function() {
  
-    var wines = [
+    var projects = [
     {
-        name: "CHATEAU DE SAINT COSME",
+        name: "Project 1",
         year: "2009",
         grapes: "Grenache / Syrah",
         country: "France",
         region: "Southern Rhone",
         description: "The aromas of fruit and spice...",
-        picture: "saint_cosme.jpg"
+        descriptionatt2: "The aromas of fruit and spice...",
+        picture: "saint_cosme.jpg",
+        comments:[{author:'Bob', comment:'I love it'}, {author:'Dave', comment:'This is rubbish!'}]
     },
     {
         name: "LAN RIOJA CRIANZA",
@@ -111,7 +113,7 @@ var populateDB = function() {
         picture: "lan_rioja.jpg"
     }];
  
-    db.collection('wines', function(err, collection) {
+    db.collection('projects', function(err, collection) {
         collection.insert(wines, {safe:true}, function(err, result) {});
     });
  
